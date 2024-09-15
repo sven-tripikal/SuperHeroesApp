@@ -1,8 +1,9 @@
 <resources>
 <!-- app name   -->
     <string name="app_name">SuperHeroesApp</string>
+    <string name="superheroes_text">Superheroes</string>
 
-<!--hero names & descriptions    -->
+    <!--hero names & descriptions    -->
     <string name="hero1">Nick the Night and Day</string>
     <string name="description1">The Jetpack Hero</string>
     <string name="hero2">Reality Protector</string>

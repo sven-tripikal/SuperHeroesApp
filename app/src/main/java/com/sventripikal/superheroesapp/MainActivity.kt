@@ -9,10 +9,10 @@ import com.sventripikal.superheroesapp.ui.theme.SuperHeroesAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        enableEdgeToEdge()  // edge-to-edge screen usage
         setContent {
             SuperHeroesAppTheme {
-                SuperHeroesApp()
+                SuperHeroesApp()    // main app
             }
         }
     }
