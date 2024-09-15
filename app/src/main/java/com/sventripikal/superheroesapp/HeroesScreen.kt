@@ -89,8 +89,8 @@ fun TitleBar(       // top screen header composable
 private fun MainScreen(     // main composable displaying heroes using LazyColumn
     modifier: Modifier = Modifier
 ) {
-    // get heroes list
-    val listOfHeroes = HeroesData.heroesList
+    // get & extend heroes list
+    val listOfHeroes = HeroesData.heroesList + HeroesData.heroesList
 
     LazyColumn(     // LazyColumn to display hero list
         contentPadding = PaddingValues(dimensionResource(R.dimen.sixteen_dp)),  // 16dp spacing around entire content
